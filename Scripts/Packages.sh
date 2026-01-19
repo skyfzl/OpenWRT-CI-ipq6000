@@ -75,6 +75,12 @@ UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
+# lucky
+UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main"
+# AdGuardHome（核心 + LuCI）
+UPDATE_PACKAGE "adguardhome" "openwrt/packages" "master" "" "AdGuardHome"
+UPDATE_PACKAGE "luci-app-adguardhome" "rufengsuixing/luci-app-adguardhome" "master"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
