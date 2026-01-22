@@ -229,7 +229,7 @@ jobs:
           files: ./wrt/upload/*.*
           body: |
 
-            带开源硬件加速，SmartDNS、AdguardHome、HomeProxy、OpenClash 和 Lucky
+            带开源硬件加速，SmartDNS、AdguardHome、PassWall、OpenClash 和 Lucky
 
             源码：${{env.WRT_REPO}}
             分支：${{env.WRT_BRANCH}}
